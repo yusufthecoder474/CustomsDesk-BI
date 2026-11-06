@@ -1,0 +1,2 @@
+run_id,status,started_at,finished_at,as_of,checksum,execution_seconds,error
+428f493a-adba-480e-930f-b9bf3c0b2ebc,SUCCESS,2026-10-26T07:09:26.698801+00:00,2026-10-26T07:09:31.258668+00:00,2026-10-01T00:00:00+00:00,de7857e312caa7184fedfa886fca7839a7089e83dd88a1eb0b2fb487f9dcf436,4.5596144860001,

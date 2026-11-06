@@ -1,0 +1,9 @@
+{
+  "measures_preserved": 22,
+  "dax_column_references": "PASS",
+  "relationships_checked": 11,
+  "sql_kpis_reproduced": 13,
+  "sql_target_contexts": 38,
+  "power_bi_runtime": "PENDING",
+  "pbix_created": false
+}

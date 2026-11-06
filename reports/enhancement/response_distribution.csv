@@ -1,0 +1,6 @@
+response_bucket,queries
+01: 0–24h,4865
+02: >24–48h,5547
+03: >48–72h,5595
+04: >72h,6531
+Not responded,7456

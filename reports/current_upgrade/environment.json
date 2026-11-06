@@ -1,0 +1,18 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "packages": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "pyspark": "3.5.3",
+    "scikit-learn": "1.8.0",
+    "duckdb": "2.0.0",
+    "SQLAlchemy": "2.0.43",
+    "psycopg": "3.2.10",
+    "pytest": "9.1.1",
+    "ruff": "0.17.2",
+    "build": "1.6.1",
+    "pydantic": "2.14.1",
+    "python-dotenv": "1.2.4"
+  }
+}

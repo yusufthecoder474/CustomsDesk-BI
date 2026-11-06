@@ -1,0 +1,22 @@
+# Python 3.12 dependency closure captured from the verified environment.
+annotated-types==0.8.0
+greenlet==3.5.6
+iniconfig==2.3.1
+numpy==2.2.6
+packaging==26.3
+pandas==2.2.3
+pluggy==1.7.0
+psycopg==3.2.10
+psycopg-binary==3.2.10
+pydantic==2.11.9
+pydantic-core==2.33.2
+pygments==2.21.0
+pytest==8.4.2
+python-dateutil==2.9.0.post0
+pytz==2026.5
+six==1.17.0
+sqlalchemy==2.0.43
+typing-extensions==4.16.0
+typing-inspection==0.4.4
+tzdata==2026.5
+python-dotenv==1.1.1

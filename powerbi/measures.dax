@@ -1,0 +1,68 @@
+// Create each definition individually using New measure. SYNTHETIC DATA.
+
+Total Shipments =
+COALESCE(COUNTROWS(fact_shipment),0)
+
+Total Queries =
+COALESCE(COUNTROWS(fact_customs_query),0)
+
+Open Backlog =
+CALCULATE([Total Queries], KEEPFILTERS(ISBLANK(fact_customs_query[closed_at])))
+
+Average Response Hours =
+AVERAGE(fact_customs_query[response_hours])
+
+Median Response Hours =
+MEDIAN(fact_customs_query[response_hours])
+
+Business Response Days =
+DIVIDE(AVERAGE(fact_customs_query[business_response_hours]),8)
+
+Responded Queries =
+COALESCE(COUNT(fact_customs_query[response_hours]),0)
+
+SLA Met Responses =
+COALESCE(COUNTROWS(FILTER(fact_customs_query, NOT ISBLANK(fact_customs_query[response_hours]) && fact_customs_query[sla_breach] = 0)),0)
+
+SLA Compliance % =
+DIVIDE([SLA Met Responses],[Responded Queries])
+
+SLA Breaches =
+COALESCE(SUM(fact_customs_query[sla_breach]),0)
+
+Average Backlog Hours =
+AVERAGE(fact_customs_query[backlog_hours])
+
+High Priority Unresolved =
+CALCULATE([Open Backlog], KEEPFILTERS(fact_customs_query[query_priority] = "HIGH"))
+
+Total Parts =
+COALESCE(COUNTROWS(dim_part),0)
+
+Missing Parts =
+CALCULATE([Total Parts], KEEPFILTERS(dim_part[code_state] = "MISSING"))
+
+Invalid Parts =
+CALCULATE([Total Parts], KEEPFILTERS(dim_part[code_state] = "INVALID"))
+
+Missing Classification % =
+DIVIDE([Missing Parts],[Total Parts])
+
+Invalid Classification % =
+DIVIDE([Invalid Parts],[Total Parts])
+
+Parts Requiring Review =
+CALCULATE([Total Parts], KEEPFILTERS(dim_part[review_required] = TRUE()))
+
+Closed Throughput =
+CALCULATE([Total Queries], USERELATIONSHIP(dim_date[date_key],fact_customs_query[closed_date]), KEEPFILTERS(NOT ISBLANK(fact_customs_query[closed_at])))
+
+Previous Month Throughput =
+CALCULATE([Closed Throughput], DATEADD(dim_date[date_key], -1, MONTH))
+
+MoM Throughput % =
+DIVIDE([Closed Throughput] - [Previous Month Throughput],[Previous Month Throughput])
+
+DQ Pass Rate % =
+VAR LatestRun = MAXX(TOPN(1, FILTER(ALL(etl_run_log), etl_run_log[status] = "SUCCESS"), etl_run_log[finished_at], DESC, etl_run_log[run_id], DESC), etl_run_log[run_id])
+RETURN DIVIDE(CALCULATE(SUM(data_quality_results[accepted]), data_quality_results[run_id] = LatestRun), CALCULATE(SUM(data_quality_results[source_rows]), data_quality_results[run_id] = LatestRun))

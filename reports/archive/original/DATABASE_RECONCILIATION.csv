@@ -1,0 +1,14 @@
+kpi,postgresql,sqlite,absolute_tolerance,status
+total_shipments,,19998,1e-08,PENDING_POSTGRESQL
+total_queries,,29994,1e-08,PENDING_POSTGRESQL
+open_queries,,13375,1e-08,PENDING_POSTGRESQL
+avg_response_hours,,52.03376519655693,1e-08,PENDING_POSTGRESQL
+median_response_hours,,52.0,1e-08,PENDING_POSTGRESQL
+avg_business_response_days,,1.550131999290088,1e-08,PENDING_POSTGRESQL
+sla_compliance_pct,,61.0613186618156,1e-08,PENDING_POSTGRESQL
+sla_breaches,,16232,1e-08,PENDING_POSTGRESQL
+avg_backlog_hours,,3403.942429906542,1e-08,PENDING_POSTGRESQL
+high_priority_unresolved,,2673,1e-08,PENDING_POSTGRESQL
+missing_classification_pct,,5.44,1e-08,PENDING_POSTGRESQL
+invalid_classification_pct,,0.02,1e-08,PENDING_POSTGRESQL
+dq_pass_rate_pct,,99.97818340484328,1e-08,PENDING_POSTGRESQL

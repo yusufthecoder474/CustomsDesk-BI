@@ -1,0 +1,2 @@
+run_id,status,started_at,finished_at,as_of,checksum,execution_seconds,error
+615e7dd5-b331-4e1a-963c-bfe4245d1dd9,SUCCESS,2026-10-22T18:33:55.596619+00:00,2026-10-22T18:33:59.167791+00:00,2026-10-01T00:00:00+00:00,de7857e312caa7184fedfa886fca7839a7089e83dd88a1eb0b2fb487f9dcf436,3.5708830160001526,

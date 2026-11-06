@@ -1,0 +1,2292 @@
+[
+  {
+    "source": "parts",
+    "row_number": 8,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 9,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 93,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 104,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 108,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 116,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 148,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 154,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 197,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 198,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 205,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 210,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 261,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 299,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 325,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 336,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 383,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 391,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 407,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 411,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 492,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 500,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 516,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 541,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 568,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 574,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 628,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 637,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 739,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 746,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 769,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 771,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 776,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 805,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 837,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 838,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 845,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 846,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 870,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 883,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 885,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 916,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 976,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 985,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 986,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1011,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1014,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1030,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1036,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1044,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1077,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1079,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1088,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1100,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1106,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1109,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1134,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1148,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1151,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1162,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1183,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1193,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1205,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1212,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1222,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1227,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1236,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1251,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1256,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1271,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1287,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1310,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1318,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1350,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1389,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1415,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1420,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1421,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1443,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1459,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1488,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1533,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1543,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1568,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1598,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1614,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1617,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1649,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1651,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1701,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1705,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1710,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1728,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1730,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1746,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1748,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1790,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1798,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1818,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1834,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1863,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1873,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1900,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1914,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1949,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1995,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2002,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2020,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2070,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2119,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2147,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2180,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2183,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2197,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2206,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2213,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2274,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2285,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2312,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2335,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2342,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2345,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2352,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2369,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2413,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2424,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2463,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2471,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2508,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2529,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2530,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2532,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2556,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2581,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2606,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2611,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2625,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2652,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2662,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2677,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2732,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2739,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2744,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2745,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2777,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2785,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2789,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2868,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2877,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2886,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2905,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2935,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2967,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2970,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 2995,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3004,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3009,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3028,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3069,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3087,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3100,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3108,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3123,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3128,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3130,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3151,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3157,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3164,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3174,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3175,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3247,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3283,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3288,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3296,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3339,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3340,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3349,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3375,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3384,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3420,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3488,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3491,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3500,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3597,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3602,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3608,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3637,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3653,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3687,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3703,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3706,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3738,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3739,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3743,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3762,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3795,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3796,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3802,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3808,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3821,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3845,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3902,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3905,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3914,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3963,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 3984,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4005,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4039,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4052,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4067,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4068,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4075,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4111,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4113,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4127,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4144,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4162,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4188,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4247,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4251,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4265,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4270,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4343,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4348,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4360,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4370,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4376,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4390,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4394,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4396,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4398,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4406,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4428,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4431,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4448,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4450,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4466,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4516,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4543,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4545,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4556,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4581,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4615,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4616,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4626,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4628,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4641,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4646,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4691,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4701,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4705,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4706,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4731,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4733,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4743,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4746,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4784,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4801,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4805,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4809,
+    "field": "hs_code",
+    "before": "903180",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4852,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4893,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4895,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4901,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4915,
+    "field": "hs_code",
+    "before": "848390",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4931,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4937,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4962,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4976,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4978,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 4982,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs_assumption"
+  },
+  {
+    "source": "parts",
+    "row_number": 1,
+    "field": "hs_code",
+    "before": "731815",
+    "after": "AB123!",
+    "defect": "invalid_hs"
+  },
+  {
+    "source": "parts",
+    "row_number": 2,
+    "field": "hs_code",
+    "before": "401693",
+    "after": "",
+    "defect": "missing_hs"
+  },
+  {
+    "source": "parts",
+    "row_number": 3,
+    "field": "hs_code",
+    "before": "848210",
+    "after": "7318.15",
+    "defect": "formatted_hs"
+  },
+  {
+    "source": "shipments",
+    "row_number": 1,
+    "field": "dispatch_date",
+    "before": "2026-02-24T00:00:00Z",
+    "after": "not-a-date",
+    "defect": "invalid_date"
+  },
+  {
+    "source": "shipments",
+    "row_number": 2,
+    "field": "shipment_status",
+    "before": "ARRIVED",
+    "after": "TELEPORTED",
+    "defect": "invalid_status"
+  },
+  {
+    "source": "shipments",
+    "row_number": 3,
+    "field": "origin_country",
+    "before": "US",
+    "after": " india ",
+    "defect": "country_alias"
+  },
+  {
+    "source": "queries",
+    "row_number": 1,
+    "field": "shipment_id",
+    "before": "S012883",
+    "after": "UNKNOWN",
+    "defect": "unknown_reference"
+  },
+  {
+    "source": "queries",
+    "row_number": 2,
+    "field": "opened_at",
+    "before": "2026-01-21T19:00:00Z",
+    "after": null,
+    "defect": "missing_timestamp"
+  },
+  {
+    "source": "queries",
+    "row_number": 3,
+    "field": "query_status",
+    "before": "RESPONDED",
+    "after": "BANANA",
+    "defect": "invalid_status"
+  },
+  {
+    "source": "parts",
+    "row_number": 5001,
+    "field": "part_id",
+    "defect": "exact_duplicate",
+    "before": null,
+    "after": "P00005"
+  },
+  {
+    "source": "shipments",
+    "row_number": 20001,
+    "field": "shipment_id",
+    "defect": "exact_duplicate",
+    "before": null,
+    "after": "S000005"
+  },
+  {
+    "source": "queries",
+    "row_number": 30001,
+    "field": "query_id",
+    "defect": "exact_duplicate",
+    "before": null,
+    "after": "Q000005"
+  },
+  {
+    "source": "parts",
+    "row_number": 5002,
+    "field": "part_id",
+    "defect": "conflicting_update",
+    "before": {
+      "part_id": "P00006",
+      "part_description": "Synthetic Seals 6",
+      "part_category": "Seals",
+      "hs_code": "401693",
+      "classification_status": "CLASSIFIED",
+      "classification_version": 1,
+      "review_date": "2026-01-01",
+      "review_required": false
+    },
+    "after": {
+      "part_id": "P00006",
+      "part_description": "Synthetic Seals 6",
+      "part_category": "Seals",
+      "hs_code": "848210",
+      "classification_status": "CLASSIFIED",
+      "classification_version": 2,
+      "review_date": "2026-01-01",
+      "review_required": false
+    }
+  }
+]

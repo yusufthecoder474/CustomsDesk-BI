@@ -1,0 +1,54 @@
+{
+  "label": "SYNTHETIC DATA",
+  "database": "sqlite",
+  "run_id": "73c5981c-8f2b-4040-ac3d-ca4c32689e53",
+  "status": "SUCCESS",
+  "checksum": "de7857e312caa7184fedfa886fca7839a7089e83dd88a1eb0b2fb487f9dcf436",
+  "as_of": "2026-10-01T00:00:00+00:00",
+  "processing_timestamp": "2026-10-22T17:48:11.077506+00:00",
+  "execution_seconds": 4.060618810000051,
+  "sources": [
+    {
+      "source": "parts",
+      "source_rows": 5002,
+      "accepted": 5000,
+      "rejected": 0,
+      "duplicates": 1,
+      "superseded": 1,
+      "source_checksum": "a22819f92aaf2a6e186906379e6d19e99f1872a2a452196b031daab481e0893e"
+    },
+    {
+      "source": "shipments",
+      "source_rows": 20001,
+      "accepted": 19998,
+      "rejected": 2,
+      "duplicates": 1,
+      "superseded": 0,
+      "source_checksum": "4f63bc8977e1a85d62cec15f13bdce5575a029ac4ec1169b88c7e5e3bd5f3928"
+    },
+    {
+      "source": "queries",
+      "source_rows": 30001,
+      "accepted": 29994,
+      "rejected": 6,
+      "duplicates": 1,
+      "superseded": 0,
+      "source_checksum": "83b0dede63ea00aedff9ad189d5b172c445b4fe2bf39d46852144c9cc0750895"
+    }
+  ],
+  "kpis": {
+    "total_shipments": 19998,
+    "total_queries": 29994,
+    "open_queries": 13375,
+    "avg_response_hours": 52.03376519655693,
+    "median_response_hours": 52.0,
+    "avg_business_response_days": 1.550131999290088,
+    "sla_compliance_pct": 61.0613186618156,
+    "sla_breaches": 16232,
+    "avg_backlog_hours": 3403.942429906542,
+    "high_priority_unresolved": 2673,
+    "missing_classification_pct": 5.44,
+    "invalid_classification_pct": 0.02,
+    "dq_pass_rate_pct": 99.97818340484328
+  }
+}

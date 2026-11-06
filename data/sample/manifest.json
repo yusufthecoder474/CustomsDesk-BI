@@ -1,0 +1,27 @@
+{
+  "label": "SYNTHETIC DATA",
+  "seed": 474,
+  "as_of": "2026-10-01T00:00:00Z",
+  "rows": {
+    "shipments": 20001,
+    "queries": 30001,
+    "parts": 5002
+  },
+  "config": {
+    "missing_classification_rate": 0.05,
+    "review_rate": 0.08,
+    "status_probabilities": [
+      0.12,
+      0.13,
+      0.2,
+      0.55
+    ],
+    "priority_probabilities": [
+      0.2,
+      0.6,
+      0.2
+    ],
+    "max_response_hours": 96
+  },
+  "assumptions": "Uniform values, five countries/authorities; independent query types; configurable artificial status mix. No observed trade distributions."
+}

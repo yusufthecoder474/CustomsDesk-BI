@@ -1,0 +1,16 @@
+.git
+.venv
+.env
+.env.*
+!.env.example
+.local
+**/__pycache__
+**/.pytest_cache
+**/*.pyc
+**/*.db
+**/*.sqlite
+**/*.log
+build
+dist
+**/*.egg-info
+reports/windows-runs

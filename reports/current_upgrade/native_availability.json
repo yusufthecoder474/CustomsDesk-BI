@@ -1,0 +1,10 @@
+{
+  "java": "/usr/bin/java",
+  "docker": null,
+  "postgres": null,
+  "psql": null,
+  "pwsh": null,
+  "databricks": null,
+  "PBIDesktop.exe": null,
+  "excel.exe": null
+}

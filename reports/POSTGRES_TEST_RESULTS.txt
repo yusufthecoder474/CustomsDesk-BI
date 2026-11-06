@@ -1,0 +1,3 @@
+CURRENT LOCAL SUITE: 85 passed, 0 failed, 2 skipped.
+PostgreSQL tests: NOT EXECUTED; server/Docker unavailable.
+Windows one-click creates a new guarded test database and records actual enabled-test counts.

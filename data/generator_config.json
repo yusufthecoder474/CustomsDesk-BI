@@ -1,0 +1,7 @@
+{
+  "missing_classification_rate": 0.05,
+  "review_rate": 0.08,
+  "status_probabilities": [0.12, 0.13, 0.20, 0.55],
+  "priority_probabilities": [0.20, 0.60, 0.20],
+  "max_response_hours": 96
+}

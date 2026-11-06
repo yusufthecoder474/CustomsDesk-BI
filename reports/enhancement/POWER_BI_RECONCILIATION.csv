@@ -1,0 +1,39 @@
+measure,filter_context,expected_sql_value,actual_dax_value,status
+Total Shipments,Unfiltered,19998.0,,PENDING
+Total Queries,Unfiltered,29994.0,,PENDING
+Open Backlog,Unfiltered,13375.0,,PENDING
+Average Response Hours,Unfiltered,52.03376519655693,,PENDING
+Median Response Hours,Unfiltered,52.0,,PENDING
+Business Response Days,Unfiltered,1.550131999290088,,PENDING
+Responded Queries,Unfiltered,22538.0,,PENDING
+SLA Met Responses,Unfiltered,13762.0,,PENDING
+SLA Compliance %,Unfiltered,0.610613186618156,,PENDING
+SLA Breaches,Unfiltered,16232.0,,PENDING
+Average Backlog Hours,Unfiltered,3403.942429906542,,PENDING
+High Priority Unresolved,Unfiltered,2673.0,,PENDING
+Total Parts,Unfiltered,5000.0,,PENDING
+Missing Parts,Unfiltered,272.0,,PENDING
+Invalid Parts,Unfiltered,1.0,,PENDING
+Missing Classification %,Unfiltered,0.0544,,PENDING
+Invalid Classification %,Unfiltered,0.0002,,PENDING
+Parts Requiring Review,Unfiltered,657.0,,PENDING
+Closed Throughput,September 2026,1313.0,,PENDING
+Previous Month Throughput,September 2026,1884.0,,PENDING
+MoM Throughput %,September 2026,-0.3030785562632696,,PENDING
+DQ Pass Rate %,Unfiltered,0.9997818340484328,,PENDING
+Total Queries,Priority LOW,5998.0,,PENDING
+Open Backlog,Priority LOW,2697.0,,PENDING
+High Priority Unresolved,Priority LOW,0.0,,PENDING
+SLA Compliance %,Priority LOW,0.7136160714285714,,PENDING
+Total Queries,Authority A1,5884.0,,PENDING
+Open Backlog,Authority A1,2594.0,,PENDING
+High Priority Unresolved,Authority A1,522.0,,PENDING
+SLA Compliance %,Authority A1,0.6081937528293345,,PENDING
+Total Queries,Empty query cohort,0.0,,PENDING
+Open Backlog,Empty query cohort,0.0,,PENDING
+High Priority Unresolved,Empty query cohort,0.0,,PENDING
+SLA Compliance %,Empty query cohort,,,PENDING
+Total Queries,September opened cohort,2124.0,,PENDING
+Open Backlog,September opened cohort,981.0,,PENDING
+High Priority Unresolved,September opened cohort,181.0,,PENDING
+SLA Compliance %,September opened cohort,0.6010329244673983,,PENDING

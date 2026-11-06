@@ -1,0 +1,12 @@
+one,many,active,duplicate_keys,orphan_keys,status
+dim_part.part_id,fact_shipment.part_id,True,0,0,PASS
+dim_part.part_id,fact_customs_query.part_id,True,0,0,PASS
+dim_country.country_code,fact_shipment.origin_country,True,0,0,PASS
+dim_country.country_code,fact_customs_query.country_code,True,0,0,PASS
+dim_country.country_code,fact_shipment.destination_country,False,0,0,PASS
+dim_authority.authority_id,fact_customs_query.authority_id,True,0,0,PASS
+dim_query_type.query_type,fact_customs_query.query_type,True,0,0,PASS
+dim_date.date_key,fact_shipment.dispatch_date,True,0,0,PASS
+dim_date.date_key,fact_customs_query.opened_date,True,0,0,PASS
+dim_date.date_key,fact_customs_query.closed_date,False,0,0,PASS
+etl_run_log.run_id,data_quality_results.run_id,True,0,0,PASS

@@ -1,0 +1,10 @@
+source,reason,rows
+queries,unknown_shipment_reference,4
+parts,exact_duplicate,1
+parts,superseded_version,1
+queries,exact_duplicate,1
+queries,invalid_query_status,1
+queries,missing_timestamp,1
+shipments,"Unknown datetime string format, unable to parse: not-a-date",1
+shipments,exact_duplicate,1
+shipments,invalid_shipment_status,1

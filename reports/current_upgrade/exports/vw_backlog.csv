@@ -1,0 +1,4 @@
+age_bucket,query_priority,queries
+72h+,HIGH,2673
+72h+,LOW,2697
+72h+,NORMAL,8005

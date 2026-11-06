@@ -1,0 +1,78 @@
+{
+  "label": "SYNTHETIC DATA",
+  "baseline": {
+    "total_shipments": 19998,
+    "total_queries": 29994,
+    "open_queries": 13375,
+    "avg_response_hours": 52.03376519655693,
+    "median_response_hours": 52.0,
+    "avg_business_response_days": 1.550131999290088,
+    "sla_compliance_pct": 61.0613186618156,
+    "sla_breaches": 16232,
+    "avg_backlog_hours": 3403.942429906542,
+    "high_priority_unresolved": 2673,
+    "missing_classification_pct": 5.44,
+    "invalid_classification_pct": 0.02,
+    "dq_pass_rate_pct": 99.97818340484328
+  },
+  "trials": [
+    {
+      "scenario": "renamed_column_with_adapter",
+      "status": "PASS",
+      "differences": {},
+      "rejected_rows": 8,
+      "trial_database": "sqlite",
+      "expected": true
+    },
+    {
+      "scenario": "unknown_status_breaking",
+      "status": "FAIL",
+      "differences": {
+        "total_queries": {
+          "before": 29994,
+          "after": 0
+        },
+        "open_queries": {
+          "before": 13375,
+          "after": 0
+        },
+        "avg_response_hours": {
+          "before": 52.03376519655693,
+          "after": null
+        },
+        "sla_compliance_pct": {
+          "before": 61.0613186618156,
+          "after": null
+        },
+        "dq_pass_rate_pct": {
+          "before": 99.97818340484328,
+          "after": 45.44760381063195
+        },
+        "avg_business_response_days": {
+          "before": 1.550131999290088,
+          "after": null
+        },
+        "median_response_hours": {
+          "before": 52.0,
+          "after": null
+        },
+        "sla_breaches": {
+          "before": 16232,
+          "after": 0
+        },
+        "high_priority_unresolved": {
+          "before": 2673,
+          "after": 0
+        },
+        "avg_backlog_hours": {
+          "before": 3403.942429906542,
+          "after": null
+        }
+      },
+      "rejected_rows": 30003,
+      "trial_database": "sqlite",
+      "expected": true
+    }
+  ],
+  "all_expected": true
+}

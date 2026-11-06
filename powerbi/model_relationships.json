@@ -1,0 +1,74 @@
+{
+  "status": "SPECIFICATION \u2014 Desktop pending",
+  "relationships": [
+    {
+      "one": "dim_part.part_id",
+      "many": "fact_shipment.part_id",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_part.part_id",
+      "many": "fact_customs_query.part_id",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_country.country_code",
+      "many": "fact_shipment.origin_country",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_country.country_code",
+      "many": "fact_customs_query.country_code",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_country.country_code",
+      "many": "fact_shipment.destination_country",
+      "active": false,
+      "direction": "single"
+    },
+    {
+      "one": "dim_authority.authority_id",
+      "many": "fact_customs_query.authority_id",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_query_type.query_type",
+      "many": "fact_customs_query.query_type",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_date.date_key",
+      "many": "fact_shipment.dispatch_date",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_date.date_key",
+      "many": "fact_customs_query.opened_date",
+      "active": true,
+      "direction": "single"
+    },
+    {
+      "one": "dim_date.date_key",
+      "many": "fact_customs_query.closed_date",
+      "active": false,
+      "direction": "single"
+    },
+    {
+      "one": "etl_run_log.run_id",
+      "many": "data_quality_results.run_id",
+      "active": true,
+      "direction": "single"
+    }
+  ],
+  "forbidden_active_relationships": [
+    "fact_shipment.shipment_id -> fact_customs_query.shipment_id"
+  ]
+}

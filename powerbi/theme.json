@@ -1,0 +1,14 @@
+{
+  "name": "CustomsDesk Operations",
+  "dataColors": [
+    "#17324D",
+    "#0D9488",
+    "#2563EB",
+    "#F59E0B",
+    "#DC2626",
+    "#64748B"
+  ],
+  "background": "#F5F7FA",
+  "foreground": "#17324D",
+  "tableAccent": "#0D9488"
+}

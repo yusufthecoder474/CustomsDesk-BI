@@ -1,0 +1,4 @@
+query_priority,queries,breaches
+HIGH,5987,5055
+LOW,5998,2801
+NORMAL,18009,8376

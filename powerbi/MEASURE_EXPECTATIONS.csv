@@ -1,0 +1,23 @@
+measure,expected_sql_value,filter_context,status
+Total Shipments,19998.0,Unfiltered,SQL target; DAX not executed
+Total Queries,29994.0,Unfiltered,SQL target; DAX not executed
+Open Backlog,13375.0,Unfiltered,SQL target; DAX not executed
+Average Response Hours,52.03376519655693,Unfiltered,SQL target; DAX not executed
+Median Response Hours,52.0,Unfiltered,SQL target; DAX not executed
+Business Response Days,1.550131999290088,Unfiltered,SQL target; DAX not executed
+Responded Queries,22538.0,Unfiltered,SQL target; DAX not executed
+SLA Met Responses,13762.0,Unfiltered,SQL target; DAX not executed
+SLA Compliance %,0.610613186618156,Unfiltered,SQL target; DAX not executed
+SLA Breaches,16232.0,Unfiltered,SQL target; DAX not executed
+Average Backlog Hours,3403.942429906542,Unfiltered,SQL target; DAX not executed
+High Priority Unresolved,2673.0,Unfiltered,SQL target; DAX not executed
+Total Parts,5000.0,Unfiltered,SQL target; DAX not executed
+Missing Parts,272.0,Unfiltered,SQL target; DAX not executed
+Invalid Parts,1.0,Unfiltered,SQL target; DAX not executed
+Missing Classification %,0.054400000000000004,Unfiltered,SQL target; DAX not executed
+Invalid Classification %,0.0002,Unfiltered,SQL target; DAX not executed
+Parts Requiring Review,657.0,Unfiltered,SQL target; DAX not executed
+Closed Throughput,1313.0,September 2026,SQL target; DAX not executed
+Previous Month Throughput,1884.0,September 2026,SQL target; DAX not executed
+MoM Throughput %,-0.3030785562632696,September 2026,SQL target; DAX not executed
+DQ Pass Rate %,0.9997818340484328,Unfiltered,SQL target; DAX not executed

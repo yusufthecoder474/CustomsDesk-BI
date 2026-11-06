@@ -1,0 +1,2 @@
+total_shipments,total_queries,open_queries,avg_response_hours,median_response_hours,avg_business_response_days,sla_compliance_pct,sla_breaches,avg_backlog_hours,high_priority_unresolved,missing_classification_pct,invalid_classification_pct,dq_pass_rate_pct
+19998,29994,13375,52.03376519655693,52.0,1.550131999290088,61.0613186618156,16232,3403.942429906542,2673,5.44,0.02,99.97818340484328

@@ -1,0 +1,160 @@
+[
+  {
+    "check": "lint_full_standard",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--isolated",
+      "src",
+      "tests",
+      "scripts"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 1
+  },
+  {
+    "check": "lint_new",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--isolated",
+      "src/customsdesk/measure_sql.py",
+      "tests/test_measure_sql.py"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 1
+  },
+  {
+    "check": "build",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "build",
+      "--wheel",
+      "--no-isolation",
+      "--outdir",
+      "/tmp/danfoss-build/CustomsDesk-BI"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "tests",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "pytest",
+      "-q",
+      "--junitxml=reports/current_upgrade/tests.xml"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "etl",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "customsdesk.cli",
+      "etl",
+      "--database-url",
+      "sqlite:///reports/current_upgrade/warehouse.sqlite",
+      "--data",
+      "data/sample",
+      "--reports",
+      "reports/current_upgrade"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "export",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "customsdesk.cli",
+      "export",
+      "--database-url",
+      "sqlite:///reports/current_upgrade/warehouse.sqlite",
+      "--exports",
+      "reports/current_upgrade/exports"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "dashboard",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "customsdesk.dashboard",
+      "--database-url",
+      "sqlite:///reports/current_upgrade/warehouse.sqlite"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "measure_sql",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "customsdesk.measure_sql",
+      "--database-url",
+      "sqlite:///reports/current_upgrade/warehouse.sqlite"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "installation_final",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "pip",
+      "install",
+      "--no-deps",
+      "--no-build-isolation",
+      "--target",
+      "/tmp/danfoss-final-install/CustomsDesk-BI",
+      "."
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "lint_new_final",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--isolated",
+      "src/customsdesk/measure_sql.py",
+      "tests/test_measure_sql.py"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 0
+  },
+  {
+    "check": "lint_full_final",
+    "command": [
+      "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+      "-m",
+      "ruff",
+      "check",
+      "--isolated",
+      "--output-format",
+      "concise",
+      "src",
+      "tests",
+      "scripts"
+    ],
+    "cwd": "/workspace/scratch/3accceb89fa4/work/CustomsDesk-BI",
+    "exit_code": 1
+  }
+]

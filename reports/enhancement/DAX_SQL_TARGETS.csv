@@ -1,0 +1,39 @@
+measure,expected_sql_value,filter_context,status
+Total Shipments,19998.0,Unfiltered,SQL target; DAX PENDING
+Total Queries,29994.0,Unfiltered,SQL target; DAX PENDING
+Open Backlog,13375.0,Unfiltered,SQL target; DAX PENDING
+Average Response Hours,52.03376519655693,Unfiltered,SQL target; DAX PENDING
+Median Response Hours,52.0,Unfiltered,SQL target; DAX PENDING
+Business Response Days,1.550131999290088,Unfiltered,SQL target; DAX PENDING
+Responded Queries,22538.0,Unfiltered,SQL target; DAX PENDING
+SLA Met Responses,13762.0,Unfiltered,SQL target; DAX PENDING
+SLA Compliance %,0.610613186618156,Unfiltered,SQL target; DAX PENDING
+SLA Breaches,16232.0,Unfiltered,SQL target; DAX PENDING
+Average Backlog Hours,3403.942429906542,Unfiltered,SQL target; DAX PENDING
+High Priority Unresolved,2673.0,Unfiltered,SQL target; DAX PENDING
+Total Parts,5000.0,Unfiltered,SQL target; DAX PENDING
+Missing Parts,272.0,Unfiltered,SQL target; DAX PENDING
+Invalid Parts,1.0,Unfiltered,SQL target; DAX PENDING
+Missing Classification %,0.0544,Unfiltered,SQL target; DAX PENDING
+Invalid Classification %,0.0002,Unfiltered,SQL target; DAX PENDING
+Parts Requiring Review,657.0,Unfiltered,SQL target; DAX PENDING
+Closed Throughput,1313.0,September 2026,SQL target; DAX PENDING
+Previous Month Throughput,1884.0,September 2026,SQL target; DAX PENDING
+MoM Throughput %,-0.3030785562632696,September 2026,SQL target; DAX PENDING
+DQ Pass Rate %,0.9997818340484328,Unfiltered,SQL target; DAX PENDING
+Total Queries,5998.0,Priority LOW,SQL target; DAX PENDING
+Open Backlog,2697.0,Priority LOW,SQL target; DAX PENDING
+High Priority Unresolved,0.0,Priority LOW,SQL target; DAX PENDING
+SLA Compliance %,0.7136160714285714,Priority LOW,SQL target; DAX PENDING
+Total Queries,5884.0,Authority A1,SQL target; DAX PENDING
+Open Backlog,2594.0,Authority A1,SQL target; DAX PENDING
+High Priority Unresolved,522.0,Authority A1,SQL target; DAX PENDING
+SLA Compliance %,0.6081937528293345,Authority A1,SQL target; DAX PENDING
+Total Queries,0.0,Empty query cohort,SQL target; DAX PENDING
+Open Backlog,0.0,Empty query cohort,SQL target; DAX PENDING
+High Priority Unresolved,0.0,Empty query cohort,SQL target; DAX PENDING
+SLA Compliance %,,Empty query cohort,SQL target; DAX PENDING
+Total Queries,2124.0,September opened cohort,SQL target; DAX PENDING
+Open Backlog,981.0,September opened cohort,SQL target; DAX PENDING
+High Priority Unresolved,181.0,September opened cohort,SQL target; DAX PENDING
+SLA Compliance %,0.6010329244673983,September opened cohort,SQL target; DAX PENDING
