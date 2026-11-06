@@ -13,7 +13,7 @@ invalid records and calculates operational KPIs from a relational warehouse.
 **Verification status:** Python/SQL execution was verified using SQLite. PostgreSQL is the primary
 deployment target; its integration test is supplied but skipped here because a server was unavailable.
 Power BI Desktop is unavailable: M, DAX, CSV exports and a three-page report guide are supplied,
-**not yet verified in Power BI Desktop**. No PBIX has been fabricated. Nothing was published to GitHub.
+**not yet verified in Power BI Desktop**. No PBIX has been fabricated. Published source code, tests, SQL warehouse scripts and Power BI setup materials are available in this GitHub repository. The GitHub Actions verification workflow is enabled. Native Power BI Desktop and PostgreSQL execution require separate verification.
 
 ![Local tests: 85 passed](https://img.shields.io/badge/local_tests-97_passed-147D92)
 ![PostgreSQL runtime: pending](https://img.shields.io/badge/PostgreSQL_runtime-pending-C68A22)
