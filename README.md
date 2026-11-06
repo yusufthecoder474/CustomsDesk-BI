@@ -10,22 +10,28 @@ Customs teams need a consistent view of shipments, authority queries and part cl
 CustomsDesk BI integrates three simulated operational systems, preserves source lineage, quarantines
 invalid records and calculates operational KPIs from a relational warehouse.
 
-**Verification status:** Python/SQL execution was verified using SQLite. PostgreSQL is the primary
-deployment target; its integration test is supplied but skipped here because a server was unavailable.
-Power BI Desktop is unavailable: M, DAX, CSV exports and a three-page report guide are supplied,
-**not yet verified in Power BI Desktop**. No PBIX has been fabricated. Published source code, tests, SQL warehouse scripts and Power BI setup materials are available in this GitHub repository. The GitHub Actions verification workflow is enabled. Native Power BI Desktop and PostgreSQL execution require separate verification.
+**Verification status (6 November 2026):** The GitHub Actions pipeline passed both its `unit` and
+`postgres` jobs. The unit job reported **94 passed, 5 deselected**; the PostgreSQL verification
+job reported **99 passed**. These are separate executions with overlapping test coverage, **not
+193 distinct tests**. CI ran a PostgreSQL service container; this does not establish that the
+local Windows/PostgreSQL workflow has run. Power Query M, DAX definitions, CSV exports and a
+three-page Power BI report guide are included, but **Power BI Desktop execution is not verified**
+and no `.pbix` file is supplied.
 
-![Local tests: 85 passed](https://img.shields.io/badge/local_tests-97_passed-147D92)
-![PostgreSQL runtime: pending](https://img.shields.io/badge/PostgreSQL_runtime-pending-C68A22)
-![Power BI Desktop: pending](https://img.shields.io/badge/Power_BI_Desktop-pending-C68A22)
+[![CustomsDesk CI](https://github.com/yusufthecoder474/CustomsDesk-BI/actions/workflows/ci.yml/badge.svg)](https://github.com/yusufthecoder474/CustomsDesk-BI/actions/workflows/ci.yml)
+![CI unit: 94 passed](https://img.shields.io/badge/CI_unit-94_passed-147D92)
+![CI PostgreSQL: 99 passed](https://img.shields.io/badge/CI_PostgreSQL-99_passed-147D92)
+![Power BI Desktop: pending](https://img.shields.io/badge/Power_BI_Desktop-not_verified-C68A22)
 
-Badges describe the included local evidence, not live GitHub Actions status.
+The numeric badges describe the [verified 6 November 2026 GitHub Actions run](https://github.com/yusufthecoder474/CustomsDesk-BI/actions/runs/42170271390); the workflow badge reflects the current workflow status.
 
 
 
 ## Current verified upgrade
 
-**97 tests passed; 2 skipped.** Package installation and wheel build succeeded in the recorded Linux environment. New-module lint passes; full-project lint still reports existing issues (see docs/EVIDENCE.md). Native Databricks, Power BI, PostgreSQL integration and Excel Desktop checks remain pending.
+**Latest hosted CI (6 November 2026):** 94 unit-job tests passed and 5 were deselected; the separate PostgreSQL verification job passed 99 tests. The two jobs completed successfully and uploaded `unit-evidence` and `postgres-evidence` artifacts. [See the CI run](https://github.com/yusufthecoder474/CustomsDesk-BI/actions/runs/42170271390).
+
+**Earlier local enhancement run:** 97 tests passed and 2 PostgreSQL checks were skipped in the recorded environment. Package installation and wheel build succeeded in the recorded Linux environment. New-module lint passed, while full-project lint had previously reported issues (see [docs/EVIDENCE.md](docs/EVIDENCE.md)). Native Databricks, Power BI Desktop and Excel Desktop execution remain unverified. The historical local PostgreSQL limitation does not describe the newer hosted CI result.
 
 All 22 authored DAX measure targets now reconcile to independent SQL that queries raw warehouse tables without the reporting views. This validates the SQL references; DAX execution remains pending. The three-page Power BI specification, response bands, relationship checks and explicit date/filter contexts are retained. No PBIX was supplied or created.
 
@@ -58,8 +64,9 @@ First create that disposable SQLite database with the commands in docs/EVIDENCE.
 | DAX definitions | 22 preserved; referenced columns checked against schema |
 | Relationship specifications | 11 checked for unique dimension keys and fact orphans |
 | SQL measure/context targets | 38 prepared; actual DAX result cells remain empty |
-| Tests | 97 passed; 2 PostgreSQL checks skipped |
-| Power BI / PostgreSQL current runtime | PENDING |
+| Local tests (October 2026) | 97 passed; 2 PostgreSQL checks skipped in that local run |
+| Power BI Desktop | Not verified; no PBIX supplied |
+| Hosted PostgreSQL CI (November 2026) | Verified separately: 99 tests passed |
 
 Added a response-band Power Query column and the exact requested three-page [layout](powerbi/REPORT_LAYOUT.md). Current result files are in [reports/enhancement](reports/enhancement), including SQL targets and relationship checks. These are schema and SQL checks, not DAX-engine or Desktop validation. No PBIX was produced.
 
@@ -146,10 +153,10 @@ connections must match configured host/port/user/database and the per-install id
 Editing POSTGRES_PASSWORD alone does not reset an initialized volume's role password.
 
 The Python orchestrator can also run on Linux with Docker: `python -m customsdesk.windows finish --root .`
-after dependencies are installed. Windows/Compose execution is not claimed from Linux unit tests.
+after dependencies are installed. The local Windows/Compose workflow has not been verified here.
 Do not point TEST_POSTGRES_URL at an existing database: tests require a newly created random test
-name and matching guard token supplied by the workflow. CI has separate unit and PostgreSQL jobs;
-no hosted Actions run has been performed by this repair.
+name and matching guard token supplied by the workflow. CI has separate unit and PostgreSQL jobs,
+both of which [passed on 6 November 2026](https://github.com/yusufthecoder474/CustomsDesk-BI/actions/runs/42170271390).
 
 ## Commands
 
@@ -193,11 +200,17 @@ Read docs/KPI_DICTIONARY.md before interpreting any chart. Currency is synthetic
 
 ## Measured results
 
-Current repair: **85 tests passed; 2 PostgreSQL checks skipped** because the server/Docker is unavailable.
-The full unchanged 55,004-row synthetic input was processed again: 54,992 accepted records; all 13
-SQL KPI values and source checksum match the prior release. The original 43-pass/1-skip evidence is
-preserved and labeled historical. All seven PowerShell scripts passed static grammar parsing;
-this does not prove Windows execution. See [FINAL_VERIFICATION_REPORT.md](FINAL_VERIFICATION_REPORT.md).
+**Hosted GitHub Actions, 6 November 2026:** 94 tests passed in the `unit` job with 5 deselected;
+99 tests passed in the `postgres` job. Both jobs succeeded. These are **not additive unique-test counts**.
+The two evidence artifacts were uploaded successfully.
+
+**Earlier local evidence:** the enhanced SQLite run recorded 97 passed and 2 PostgreSQL checks
+skipped; an earlier repair recorded 85 passed and 2 skipped. The original 43-pass/1-skip
+baseline is also retained as historical evidence. The full 55,004-row synthetic input was
+processed again in the recorded local run, with 54,992 accepted records, 13 SQL KPI values
+reproduced and matching source checksum. All seven PowerShell scripts passed static grammar
+parsing; this does not prove local Windows runtime execution. See
+[FINAL_VERIFICATION_REPORT.md](FINAL_VERIFICATION_REPORT.md) and [docs/EVIDENCE.md](docs/EVIDENCE.md).
 
 Historical baseline: reports/VERIFICATION.md for executed commands and environment; reports/latest_run.json for
 run ID/checksums/timing and actual counts; reports/tests.xml for test evidence. The generated
@@ -219,16 +232,23 @@ No cost savings, production users, real operational improvement or unexecuted da
 
 ## Limits and next steps
 
-PostgreSQL/Docker execution, Windows script runtime and Power BI Desktop refresh remain unverified in this build environment.
-SQLite tests do not prove PostgreSQL execution. Dates/timestamps are persisted as normalized ISO text
-in the portable warehouse; duration fields are numeric. The pipeline is a single-writer full snapshot,
-not production CDC, scheduling or historical classification tracking. There is no holiday calendar,
-legal tariff verification, currency conversion, authentication service or real source integration.
-Dependencies/container tags and CI are supplied, not claimed as executed hosted services.
-Next steps: run the Windows one-click verification and Power BI checklist, agree business calendars, add source contracts and
-incremental/history handling, and validate with approved real data.
+The hosted GitHub Actions pipeline **has** executed PostgreSQL verification successfully, but
+local Windows/Docker setup and the one-click script have not been verified in the evidence cited
+here. Power BI Desktop refresh and DAX-engine execution remain unverified. CI database coverage
+does not establish production deployment or a validated local installation.
+
+Dates/timestamps are persisted as normalized ISO text in the portable warehouse; duration fields
+are numeric. The pipeline is a single-writer full snapshot, not production CDC, scheduling or
+historical classification tracking. There is no holiday calendar, legal tariff verification,
+currency conversion, authentication service or real source integration.
+
+Next steps: verify the optional Windows one-click workflow (if desired), complete the Power BI
+Desktop checklist, agree business calendars, add source contracts and incremental/history
+handling, and validate with approved real data. The SQLite quick start above does **not** need Docker.
 
 ## License and publication
 
-No open-source license selected. Repository visibility and publication remain the owner's decision.
-See docs/GITHUB_PUBLISH.md for manual publishing to `yusufthecoder474/CustomsDesk-BI` after review.
+The repository is published at [github.com/yusufthecoder474/CustomsDesk-BI](https://github.com/yusufthecoder474/CustomsDesk-BI).
+**No open-source license has been selected.** Public visibility alone is not a grant of reuse
+permissions; see [LICENSE_DECISION.md](LICENSE_DECISION.md). The [publication guide](docs/GITHUB_PUBLISH.md)
+is retained for reference but its pre-publication steps are historical.
